@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enyo's Nail Salon</title>
+
+<!--Logo-->
+<link rel="icon" href="images/img.jpg" type="image/x-icon"> 
+
+<!-- Link Swiper's CSS -->
+ <link rel="stylesheet" href="Css/swiper-bundle.min.css">
+
+<!--Scroll Reveal-->
+<link rel="stylesheet" href="Css/scrollreveal.min.js">
+
+<!--Boxicons-->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<!--Css-->
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!--Header-->
+  <header class="header">
+    <nav class="nav container flex">
+      <a href="#" class="logo-content flex">
+        <i class='bx bx-female logo-icon'></i>
+        <span class="logo-text">Enyo's Nail Salon</span>
+      </a>
+
+      <div class="menu-content">
+        <ul class="menu-list flex">
+          <li><a href="index.html" class="nav-link active-navlink">home</a></li>
+          <li><a href="about.html" class="nav-link">about</a></li>
+          <li><a href="#reviews" class="nav-link">reviews</a></li>
+          <li><a href="contact.html" class="nav-link">contact</a></li>
+        </ul>
+
+        <div class="media-icons flex">
+          <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+          <a href="https://www.gmail.com"><i class='bx bx-envelope'></i></a>
+          <a href="https://www.instagram.com"><i class='bx bxl-instagram-alt'></i></a>
+          <a href="https://www.x.com"><i class='bx bxl-twitter'></i></a>
+        </div>
+
+        <i class='bx bx-x navClose-btn'></i>
+    </div>
+
+      <div class="contact-content flex">
+          <i class='bx bx-phone phone-icon'></i>
+          <span class="phone-number">059-870-5732</span>
+        </div>
+
+        <i class='bx bx-menu navOpen-btn'></i>
+
+    </nav>
+  </header>
+  
+  <!--Home Section-->
+  <main>
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/img1.jpg"  class="home-img">
+
+                        <div class="home-details">
+                          <div class="home-text">
+                            <h4 class="homeSubtitle">Book your appointment today</h4>
+                            <h2 class="homeTitle">Welcome to Enyo's Nail Salon</h2>
+                          </div>
+                          <button class="button">Explore</button>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="images/img2.jpg"  class="home-img">
+
+                        <div class="home-details">
+                          <div class="home-text">
+                            <h4 class="homeSubtitle">Get your best deals</h4>
+                            <h2 class="homeTitle">Feel right at home here</h2>
+                          </div>
+                          <button class="button">See More</button>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="images/img3.jpg"  class="home-img">
+
+                        <div class="home-details">
+                          <div class="home-text">
+                            <h4 class="homeSubtitle">Explore our nail collection</h4>
+                            <h2 class="homeTitle">Enjoy our services in style</h2>
+                          </div>
+                          <button class="button">Learn More</button>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <img src="images/img4.jpg"  class="home-img">
+
+                        <div class="home-details">
+                          <div class="home-text">
+                            <h4 class="homeSubtitle">Mother's Day Promo</h4>
+                            <h2 class="homeTitle">Premium services</h2>
+                          </div>
+                          <button class="button">Discover</button>
+                        </div>
+                      </div>
+              </div>
+
+              <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+              <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+  <!--Referrals Section-->
+    <section class="section referrals" id="referrals">
+      <div class="referral-content container">
+
+        <div class="referral-imageContent">
+          <img src="images/img5.jpg" alt="" class="referral-img">
+
+          <div class="referralImg-textBox">
+            <i class='bx bxs-chevrons-right arrow-icon flex'></i>
+            <p class="content-description">Providing the best service</p>
+          </div>
+        </div>
+
+        <div class="referral-details">
+          <div class="referral-text">
+            <h4 class="content-subtitle">Services Offered</h4>
+            <h2 class="content-title"></h2>
+            <p class="content-description">We appreciate your trust greatly. Our clients choose us and we provide them with the best services.</p>
+
+            <ul class="referral-lists flex">
+              <li class="referral-list">Nails</li>
+              <li class="referral-list dot">.</li>
+              <li class="referral-list">Hair</li>
+              <li class="referral-list dot">.</li>
+              <li class="referral-list">Toes</li>
+            </ul>
+          </div>
+
+          <div class="referral-buttons flex">
+            <button class="button"><a href="#">Manicures</a></button>
+            <a href="#" class="referral-link">
+              <span class="link-text">see more</span>
+              <i class='bx bx-right-arrow-alt referral-arrowIcon'></i>
+            </a>
+          </div>
+
+          <div class="referral-buttons flex">
+            <button class="button"><a href="#">Pedicure</a></button>
+          <a href="#" class="referral-link">
+            <span class="link-text">see more</span>
+            <i class='bx bx-right-arrow-alt referral-arrowIcon'></i>
+          </a>
+          </div>
+          
+          <div class="referral-buttons flex">
+            <button class="button"><a href="#">Nail Art</a></button>
+            <a href="#" class="referral-link">
+              <span class="link-text">see more</span>
+              <i class='bx bx-right-arrow-alt referral-arrowIcon'></i>
+            </a>
+          </div>
+
+          <div class="referral-buttons flex">
+            <button class="button"><a href="#">Nail Enhancements</a></button>
+            <a href="#" class="referral-link">
+              <span class="link-text">see more</span>
+              <i class='bx bx-right-arrow-alt referral-arrowIcon'></i>
+            </a>
+          </div>
+
+          <div class="referral-buttons flex">
+            <button class="button"><a href="#">Nail Care</a></button>
+            <a href="#" class="referral-link">
+              <span class="link-text">see more</span>
+              <i class='bx bx-right-arrow-alt referral-arrowIcon'></i>
+            </a>
+          </div>
+          
+        </div>
+
+      </div>
+    </section>
+
+    
+
+    <!--Subscribe Section-->
+    <section class="section newsletter" id="newsletter">
+      <div class="newsletter-container container">
+        <a href="#" class="logo-content flex">
+            <i class='bx bx-female logo-icon'></i>
+            <span class="logo-text">Enyo's Nail Salon</span>
+        </a>
+
+        <section class="mission-section">
+          <div class="mission-content">
+            <div class="mission-image-wrapper">
+              <img src="images/img6.jpg" alt="Mission" class="mission-image">
+            </div>
+            <div class="mission-details">
+              <h2 class="section-title">Why Choose Us?</h2>
+              <p class="text">Experienced Technicians: Our team is trained in the latest techniques and trends to ensure you receive top-notch service.
+                <br>
+                Quality Products: We use only the best products that are safe for your nails and skin.
+                <br>
+                Hygiene First: Our salon follows strict sanitation protocols to ensure a clean and safe environment.
+                <br>
+                Custom Designs: Bring your ideas, or let us inspire you with our design portfolio.
+              </p>
+              <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fa-regular fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <p class="content-description">
+          You'll find that our services meet your needs and you can learn more about us on this website.</p>
+
+        <div class="newsletter-inputBox">
+          <input type="email" placeholder="email@example.com" class="newsletter-input">
+          <button class="button newsletter-button">Subscribe</button>
+        </div>
+
+        <div class="newsletter media-icons flex">
+          <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
+          <a href="https://www.gmail.com"><i class='bx bx-envelope'></i></a>
+          <a href="https://www.instagram.com"><i class='bx bxl-instagram-alt'></i></a>
+          <a href="https://www.x.com"><i class='bx bxl-twitter'></i></a>
+        </div>
+      </div>
+    </section>
+
+<!--Review Section Starts-->
+<section class="section reviews" id="reviews">
+    <div class="review-container container">
+        <div class="review-text">
+            <h4 class="section-subtitle"><i>Reviews</i></h4>
+            <h2 class="section-title">What Client Says</h2>
+            <p class="section-description">Some reviews that clients said about nail salons and businesses Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam totam repellat, labore commodi exercitationem!</p>
+        </div>
+
+        <div class="testimonial swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="testi-content swiper-slide flex">
+                    <img src="images/profile-6.png" alt="" class="review-img">
+                    <p class="review-quote">Your services are perfect. Thank you for the wonderful experience. Your employees are very fun to talk to! I will spread the word and let my friends come here as well.</p>
+                    <i class='bx bxs-quote-alt-left quote-icon'></i>
+
+                    <div class="testi-personDetails flex">
+                        <span class="name">Magarette Ocansay</span>
+                        <span class="job">Doctor</span>
+                    </div>
+                </div>
+
+                <div class="testi-content swiper-slide flex">
+                    <img src="images/profile-5.png" alt="" class="review-img">
+                    <p class="review-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam totam repellat, labore commodi exercitationem!</p>
+                    <i class='bx bxs-quote-alt-left quote-icon'></i>
+
+                    <div class="testi-personDetails flex">
+                        <span class="name">David Oswell</span>
+                        <span class="job">Businessman</span>
+                    </div>
+                </div>
+
+                <div class="testi-content swiper-slide flex">
+                    <img src="images/profile-4.png" alt="" class="review-img">
+                    <p class="review-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam totam repellat, labore commodi exercitationem!</p>
+                    <i class='bx bxs-quote-alt-left quote-icon'></i>
+
+                    <div class="testi-personDetails flex">
+                        <span class="name">Bernard Sylvester</span>
+                        <span class="job">Web Developer</span>
+                    </div>
+                </div>
+
+                <div class="testi-content swiper-slide flex">
+                    <img src="images/profile-3.png" alt="" class="review-img">
+                    <p class="review-quote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam totam repellat, labore commodi exercitationem!</p>
+                    <i class='bx bxs-quote-alt-left quote-icon'></i>
+
+                    <div class="testi-personDetails flex">
+                        <span class="name">Henry Maclean</span>
+                        <span class="job">Engineer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+              <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+<!--Review Section Ends-->
+
+    <!--Footer-->
+    <footer class="section footer" id="footer">
+      <div class="footer-container container">
+        <div class="footer-content">
+          <a href="#" class="logo-content flex">
+            <i class='bx bx-female logo-icon'></i>
+        <span class="logo-text">Enyo's Nail Salon</span>
+          </a>
+
+          <p class="content-description">We are dedicated to providing compassionate and <br>beauty care services tailored to meet the unique needs of each client.</p>
+
+        </div>
+
+        <div class="footer-linkContent">
+          <ul class="footer-links">
+            <h4 class="footerLinks-title">Facility</h4>
+
+            <li><a href="#" class="footer-link">Gallery</a></li>
+            <li><a href="#" class="footer-link">Careers</a></li>
+            <li><a href="#" class="footer-link">Charity</a></li>
+            <li><a href="#" class="footer-link">Resources</a></li>
+            <li><a href="#" class="footer-link">Blog</a></li>
+          </ul>
+
+          <ul class="footer-links">
+            <h4 class="footerLinks-title">Users</h4>
+
+            <li><a href="#" class="footer-link">Community Involvement</a></li>
+            <li><a href="#" class="footer-link">Insurance Information</a></li>
+            <li><a href="#" class="footer-link">Client Resources</a></li>
+            <li><a href="#" class="footer-link">Client Login</a></li>
+            <li><a href="#" class="footer-link">Feedback and Suggestions</a></li>
+          </ul>
+
+          <ul class="footer-links">
+            <h4 class="footerLinks-title">Support</h4>
+
+            <li><a href="#" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">Services</a></li>
+            <li><a href="#" class="footer-link">FAQs</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyRight">&#169; Enyo's Nail Salon 2024 | All rights reserved.</div>
+    </footer>
+
+  <!--Scroll Up-->
+  <a href="#home" class="scrollUp-btn flex">
+    <i class='bx bx-chevrons-up scrollUp-icon' ></i>
+  </a>
+
+  </main>
+
+  <!-- Link Swiper's JS -->
+   <script src="Js/swiper-bundle.min.js"></script>
+
+  <!--Scroll Reveal-->
+  <script src="Js/scrollreveal.min.js"></script>
+
+  
+
+<!--Javascript-->
+<script src="main.js"></script>
+</body>
+</html>
